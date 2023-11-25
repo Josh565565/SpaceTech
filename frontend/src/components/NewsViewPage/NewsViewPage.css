@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  /* width: 100%; */
+}
+
+/* NewsViewPage.css */
+
+/* Center the page content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+  padding: 20px;
+}
+.market {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* Reduce the size of the profile picture */
+.profile-picture{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  width: 760px;
+  margin-bottom: 40px;
+}
+.profile-1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.author-div {
+  display: flex;
+  flex-direction: row;
+}
+.author {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #423D3D;
+}
+.follow-author {
+  font-size: 0.8125rem;
+  color: #3498DB;
+  margin-left: 10px;
+}
+.date {
+  font-size: 0.8125rem;
+  margin-top: 2px;
+}
+
+.laptop-pic {
+  width: 770px;
+  height: 485px;
+  margin-bottom: 40px;
+}
+
+.article-content{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  width: 760px;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+.comment-con{
+  width: 760px;
+  margin-bottom: 40px;
+  /* line-height: 1.5rem; */
+}
+.sarah-comment-div {
+  background-color: #E8F9F4;
+  padding: 20px 10px 10px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.profile-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  /* margin-right: 10px; */
+}
+.author-comment {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #423D3D;
+  padding: 2px 0 20px 7px;
+
+}
+.sarah-comment {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.profile-sarah {
+  display: flex;
+  /* align-items: center; */
+}
+
+/* Comment input stayle start */
+.comment-form {
+
+  align-items: center;
+  width: 760px;
+  margin-bottom: 40px;
+  /* line-height: 1.5rem; */
+  
+}
+.comment-input {
+  border-radius: 10px;
+  border: 1px solid #4F4B4B;
+  padding: 10px;
+}
+/* Comment input stayle end */
+
+/* Comment button start */
+.submit-post {
+  width: 125px;
+  height: 43px;
+  background-color: #27AE60;
+  color: #FFFFFF;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.comment-post:hover {
+  background-color: #27AE60;
+}
+
+/* Comment button end */
+
+@media (max-width: 1260px) {
+  /* Header text news start */
+  .market {
+    font-size: 0.57rem;
+  }
+  /* Header text news end */
+  .profile-picture{
+    width: 339px;
+  }
+  .profile-1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .author {
+    font-size: 0.75rem;
+  }
+  .follow-author {
+    font-size: 0.75rem;
+  }
+  .date {
+    font-size: 0.75rem;
+  }
+  
+  .laptop-pic {
+    width: 343px;
+    height: 182px;
+  }
+  
+  .article-content{
+    width: 343px;
+  }
+
+  .sarah-comment-div {
+    margin-top: 10px;
+  }
+  .comment-con{
+    width: 343px;
+  }
+  .comment {
+    font-size: 1rem;
+  }
+  .author-comment {
+    font-size: 0.875rem;
+    /* padding: 2px 0 20px 7px; */
+  
+  }
+  /* Comment input stayle start */
+  .comment-form {
+    width: 343px;
+    margin-bottom: 15px;
+  }
+  .comment-input {
+    width: 351px;
+
+  }
+  /* Comment input stayle end */
+  
+  /* Comment button start */
+  .submit-post:hover {
+    background-color: #3498DB;
+  }
+  .comment-post:hover {
+    background-color: #27AE60;
+  }
+}

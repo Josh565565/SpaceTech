@@ -1,0 +1,36 @@
+.search-dropdown-menu {
+    display: none;
+}
+@media (max-width: 1260px) {
+    .search-dropdown-menu {
+        display: block;
+        width: 234px;
+        height: 120px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #d9d9d9;
+        margin: 30px 22px 0 0;
+        border-radius: 10px;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        padding: 20px;
+      }
+      .custom-input {
+        padding-top: 10px;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        border: 1px solid #785B5B;
+      }
+      .custom-submit {
+        padding-top: 10px;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        background: linear-gradient(140deg, #4CAF50 32.99%, #64C1FF 75.87%);
+        border: 0;
+        color: white;
+        font-size: 18px;
+      }
+  
+  };
